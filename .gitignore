@@ -17,3 +17,7 @@ config/
 build_make/
 .settings/language.settings.xml
 .settings/org.eclipse.cdt.core.prefs
+img/Thumbs.db
+AMAGOI_for_microbit.zip
+AMAGOI.mp4
+AMAGOI.pptx
