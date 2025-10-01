@@ -31,14 +31,16 @@
 
 ## Ⅲ.ソフトウェア構成
 ### Ⅲ-ⅰ.ダウンロード元
-1. 必要なソフトウェアコードはこのリポジトリよりダウンロードできる。
+1. 必要なソフトウェアコードはこのリポジトリもしくは以下の URL よりダウンロードできる。
 https://drive.google.com/drive/folders/1OghZdNLMy32zUal7xh9D6cPuL1vC0B1t?usp=drive_link
 
 2. ファイル構成を fig3-1 に示す。
 ![fig3-1 ソースファイル構成](./img/filetree.png)  
 **fig3-1 ソースファイル構成**  
 
-3. このリポジトリ内に説明資料(本文書)、システム概要説明スライドおよび動作イメージ(動画)が格納されているため、適宜参照すること。  
+3. このリポジトリ内に説明資料(本文書)、システム概要説明スライドおよび動作イメージ(動画)が格納されているため、適宜参照すること。
+   ・AMAGOI.pptx
+   ・AMAGOI.mp4
    ・AMAGOI.pdf (本文書)  
 <div style="page-break-before:always"></div>
 
@@ -73,13 +75,12 @@ https://www.personal-media.co.jp/webshop/tengine/ioten_prackit_hw.html
 2. 「eclipse-workspace\mtkernel_3\app_sample\syscalls.c」内にダミーを作成し、リンカ時のエラーを回避している。
 
 ### Ⅲ-ⅴ.コンパイル方法
-『μT-Kernel3.0 micro:bit v2 向け 構築手順書(Version.01.00.01)』 「5. 実機でのプログラム実行」記載の手順に従いコンパイルを実行している。
+IoTエッジノード実践キット附属の 『μT-Kernel3.0 micro:bit v2 向け 構築手順書(Version.01.00.01)』 「5. 実機でのプログラム実行」記載の手順に従いコンパイルを実行している。
 <div style="page-break-before:always"></div>
 
 ## Ⅳ.操作手順
 ### Ⅳ-ⅰ.起動手順
 1. Ⅲ-ⅴ に示す手順でコンパイル後、micro:bit と PC を USB ケーブルをつなぎ電源供給することで起動する。  
-   ※送付したハードウェアはすでにソフトウェア導入済みのため、USB ケーブルを PC に接続することでそのまま動作する。
 
 ### Ⅳ-ⅱ.動作内容説明
 1. 電源投入後、初回の推定が実行されたのち状態が表示される(fig4-1)。以降 300 秒ごとに推定が実行され、状態変化があった場合状態に応じた表示に切り替わる(AMAGOI.mp4 にて切り替わる状態が確認できる。0:44 秒あたりから参照)。  
